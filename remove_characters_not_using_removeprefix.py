@@ -4,4 +4,6 @@
 user_input = str(input("Input any character: "))
 
 # ask the user what string to be removed at the beginning
+remove = input("What characters at the beginning you wish to remove?: ")
+
 # print output
