@@ -2,4 +2,6 @@
 
 # user's input
 # using replace(), to remove the spaces
+user_input = input("Input characters with spaces at the beginning: ").replace(" ", "")
+
 # print output
