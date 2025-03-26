@@ -5,3 +5,4 @@
 user_input = input("Input characters with spaces at the beginning: ").replace(" ", "")
 
 # print output
+print(user_input)
