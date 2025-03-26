@@ -7,3 +7,9 @@ user_input = str(input("Input any character: "))
 remove = input("What characters at the beginning you wish to remove?: ")
 
 # print output
+if user_input.startswith(f"{remove}"):
+    user_input = user_input.replace(f"{remove}", "")
+    print(user_input)
+
+else:
+    print(user_input)
