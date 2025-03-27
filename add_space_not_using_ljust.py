@@ -7,4 +7,9 @@ user_input = str(input("Enter a string: "))
 length = int(input("Enter the total length: "))
 
 # add space to the end with specified number
+spaces = " " * length
+
+formatted = user_input + spaces
+
 # print output
+print(f'\nResult: "{formatted}"')
