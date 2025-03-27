@@ -8,3 +8,7 @@ end_characters = str(input("Check the end characters: "))
 
 # check the end characters
 # print "True" or "False"
+if user_input[-len(end_characters):] == end_characters:
+    print("True")
+else:
+    print("False")
