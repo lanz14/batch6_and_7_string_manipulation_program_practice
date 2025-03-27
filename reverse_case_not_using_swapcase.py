@@ -13,8 +13,9 @@ for letter in user_input:
 
     elif 'A' <= letter <= 'Z':
         reverse_case += chr(ord(letter) + 32)
-        
+
     else:
         reverse_case += letter
 
 # print the reverse cased letters
+print(f"\n{reverse_case}")
