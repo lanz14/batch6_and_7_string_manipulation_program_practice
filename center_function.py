@@ -7,3 +7,6 @@ user_input = str(input("Input any string: "))
 length = int(input("The length of each side for centering: "))
 
 # apply the length to the string then print the output
+spaces = " " * length
+
+print(f'"{spaces} {user_input} {spaces}"')
