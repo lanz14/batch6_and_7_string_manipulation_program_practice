@@ -7,6 +7,13 @@ user_input = str(input("Input a string with spaces at the end: "))
 length = int(input("Number of spaces at the beginning (integers): "))
 spaces = " " * length
 
-# add space to the beginning with specified length
 # remove space at the end of the string
+input = len(user_input) - 1
+while input >= 0 and user_input[input].isspace():
+    input -= 1
+
+result = user_input[:input + 1]
+
+# add space to the beginning with specified length
 # print output
+print(f'\n"{spaces} {result}"')
