@@ -8,3 +8,4 @@ space_length = int(input("Number of space length (integers):"))
 spaces = " " * space_length
 
 # implement the length and print the output
+print(f"\n'{spaces} {user_input}'")
