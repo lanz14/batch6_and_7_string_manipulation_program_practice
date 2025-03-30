@@ -7,3 +7,7 @@ user_input = str(input("Input a string: "))
 check = str(input("Check the beginning of the string: "))
 
 # print if True or False
+if user_input[:len(check)] == check:
+    print("True")
+else:
+    print("False")
