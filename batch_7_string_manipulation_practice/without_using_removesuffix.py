@@ -7,3 +7,5 @@ user_input = str(input("Input a string: "))
 remove = str(input("String to be removed at the end?: "))
 
 # print output
+formatted = user_input.replace(f"{remove}", "")
+print(formatted)
