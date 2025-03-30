@@ -12,4 +12,9 @@ for letter in user_input:
         break
 
 # print "True" if the input is all in lower case
+if lower_case:
+    print("True")
+
 # print "False" if not all input is in lower case
+else:
+    print("False")
