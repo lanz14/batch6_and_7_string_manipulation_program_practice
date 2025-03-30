@@ -15,3 +15,4 @@ for lower in user_input:
         result += lower
 
 # print output
+print(f"\nUppercased: {result}")
