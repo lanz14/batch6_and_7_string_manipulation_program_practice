@@ -15,3 +15,7 @@ for i in range(len(user_input) - len(sub_str), -1, -1):
         break
 
 # print output
+if result == -1:
+    print(f"'{sub_str}' is not found")
+else:
+    print(result)
