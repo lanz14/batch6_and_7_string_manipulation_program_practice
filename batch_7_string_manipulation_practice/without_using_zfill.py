@@ -7,4 +7,8 @@ user_input = input("Input a string: ")
 length = int(input("Length: "))
 
 # match the number of length to the character by adding zeros
+zeros = max(0, length - len(user_input))
+output = "0" * zeros + user_input
+
 # print output
+print(output)
